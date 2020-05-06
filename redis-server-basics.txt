@@ -1,0 +1,10 @@
+1. nmap -p 6379 <ip> --script redis-info
+2. redis-cli -h 192.116.52.3 -p 6379; INFO
+3. msfconsole; use auxiliary/scanner/redis/redis_server; set RHOSTS
+<ip>; run
+4. same as 1
+5. redis-cli;KEYS "*"
+6. GET flag
+7. LRANGE welcome_message 0 4
+
+
